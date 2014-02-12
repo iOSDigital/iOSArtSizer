@@ -17,6 +17,7 @@ Create your artwork at retina size, but don't add the @2x, then drop them in. It
 
 
 ###To Do
+* Make a nice icon
 * Select a different directory to save output files
 * Enable the size checkboxes in icon sizer
 * Add your own size checkboxes in icon sizer
