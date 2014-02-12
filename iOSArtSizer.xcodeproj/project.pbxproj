@@ -18,6 +18,11 @@
 		664FBD1118AB8CC1005870BC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664FBCF018AB8CC1005870BC /* Cocoa.framework */; };
 		664FBD1918AB8CC1005870BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 664FBD1718AB8CC1005870BC /* InfoPlist.strings */; };
 		664FBD1B18AB8CC1005870BC /* iOS_ArtworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 664FBD1A18AB8CC1005870BC /* iOS_ArtworkTests.m */; };
+		664FBD2718AB8F73005870BC /* controllerIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = 664FBD2518AB8F73005870BC /* controllerIcons.m */; };
+		664FBD2818AB8F73005870BC /* controllerIcons.xib in Resources */ = {isa = PBXBuildFile; fileRef = 664FBD2618AB8F73005870BC /* controllerIcons.xib */; };
+		664FBD2C18AB9044005870BC /* controllerRetina.m in Sources */ = {isa = PBXBuildFile; fileRef = 664FBD2A18AB9044005870BC /* controllerRetina.m */; };
+		664FBD2D18AB9044005870BC /* controllerRetina.xib in Resources */ = {isa = PBXBuildFile; fileRef = 664FBD2B18AB9044005870BC /* controllerRetina.xib */; };
+		664FBD3018ABA14F005870BC /* imageDrop.m in Sources */ = {isa = PBXBuildFile; fileRef = 664FBD2F18ABA14F005870BC /* imageDrop.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,25 +36,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		664FBCED18AB8CC1005870BC /* iOS Artwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Artwork.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		664FBCED18AB8CC1005870BC /* iOSArtSizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSArtSizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		664FBCF018AB8CC1005870BC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		664FBCF318AB8CC1005870BC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		664FBCF418AB8CC1005870BC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		664FBCF518AB8CC1005870BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		664FBCF818AB8CC1005870BC /* iOS Artwork-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS Artwork-Info.plist"; sourceTree = "<group>"; };
+		664FBCF818AB8CC1005870BC /* iOSArtSizer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSArtSizer-Info.plist"; sourceTree = "<group>"; };
 		664FBCFA18AB8CC1005870BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		664FBCFC18AB8CC1005870BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		664FBCFE18AB8CC1005870BC /* iOS Artwork-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS Artwork-Prefix.pch"; sourceTree = "<group>"; };
+		664FBCFE18AB8CC1005870BC /* iOSArtSizer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSArtSizer-Prefix.pch"; sourceTree = "<group>"; };
 		664FBD0018AB8CC1005870BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		664FBD0218AB8CC1005870BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		664FBD0318AB8CC1005870BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		664FBD0618AB8CC1005870BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		664FBD0818AB8CC1005870BC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		664FBD0E18AB8CC1005870BC /* iOS ArtworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS ArtworkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		664FBD0E18AB8CC1005870BC /* iOSArtSizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSArtSizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		664FBD0F18AB8CC1005870BC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		664FBD1618AB8CC1005870BC /* iOS ArtworkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS ArtworkTests-Info.plist"; sourceTree = "<group>"; };
+		664FBD1618AB8CC1005870BC /* iOSArtSizerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSArtSizerTests-Info.plist"; sourceTree = "<group>"; };
 		664FBD1818AB8CC1005870BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		664FBD1A18AB8CC1005870BC /* iOS_ArtworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_ArtworkTests.m; sourceTree = "<group>"; };
+		664FBD2418AB8F73005870BC /* controllerIcons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = controllerIcons.h; sourceTree = "<group>"; };
+		664FBD2518AB8F73005870BC /* controllerIcons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = controllerIcons.m; sourceTree = "<group>"; };
+		664FBD2618AB8F73005870BC /* controllerIcons.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = controllerIcons.xib; sourceTree = "<group>"; };
+		664FBD2918AB9044005870BC /* controllerRetina.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = controllerRetina.h; sourceTree = "<group>"; };
+		664FBD2A18AB9044005870BC /* controllerRetina.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = controllerRetina.m; sourceTree = "<group>"; };
+		664FBD2B18AB9044005870BC /* controllerRetina.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = controllerRetina.xib; sourceTree = "<group>"; };
+		664FBD2E18ABA14F005870BC /* imageDrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imageDrop.h; sourceTree = "<group>"; };
+		664FBD2F18ABA14F005870BC /* imageDrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = imageDrop.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				664FBCF618AB8CC1005870BC /* iOS Artwork */,
+				664FBCF718AB8CC1005870BC /* Supporting Files */,
 				664FBD1418AB8CC1005870BC /* iOS ArtworkTests */,
 				664FBCEF18AB8CC1005870BC /* Frameworks */,
 				664FBCEE18AB8CC1005870BC /* Products */,
@@ -86,8 +100,8 @@
 		664FBCEE18AB8CC1005870BC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				664FBCED18AB8CC1005870BC /* iOS Artwork.app */,
-				664FBD0E18AB8CC1005870BC /* iOS ArtworkTests.xctest */,
+				664FBCED18AB8CC1005870BC /* iOSArtSizer.app */,
+				664FBD0E18AB8CC1005870BC /* iOSArtSizerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,11 +129,18 @@
 		664FBCF618AB8CC1005870BC /* iOS Artwork */ = {
 			isa = PBXGroup;
 			children = (
+				664FBD0818AB8CC1005870BC /* Images.xcassets */,
 				664FBD0218AB8CC1005870BC /* AppDelegate.h */,
 				664FBD0318AB8CC1005870BC /* AppDelegate.m */,
 				664FBD0518AB8CC1005870BC /* MainMenu.xib */,
-				664FBD0818AB8CC1005870BC /* Images.xcassets */,
-				664FBCF718AB8CC1005870BC /* Supporting Files */,
+				664FBD2418AB8F73005870BC /* controllerIcons.h */,
+				664FBD2518AB8F73005870BC /* controllerIcons.m */,
+				664FBD2618AB8F73005870BC /* controllerIcons.xib */,
+				664FBD2918AB9044005870BC /* controllerRetina.h */,
+				664FBD2A18AB9044005870BC /* controllerRetina.m */,
+				664FBD2B18AB9044005870BC /* controllerRetina.xib */,
+				664FBD2E18ABA14F005870BC /* imageDrop.h */,
+				664FBD2F18ABA14F005870BC /* imageDrop.m */,
 			);
 			path = "iOS Artwork";
 			sourceTree = "<group>";
@@ -127,13 +148,14 @@
 		664FBCF718AB8CC1005870BC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				664FBCF818AB8CC1005870BC /* iOS Artwork-Info.plist */,
+				664FBCF818AB8CC1005870BC /* iOSArtSizer-Info.plist */,
 				664FBCF918AB8CC1005870BC /* InfoPlist.strings */,
 				664FBCFC18AB8CC1005870BC /* main.m */,
-				664FBCFE18AB8CC1005870BC /* iOS Artwork-Prefix.pch */,
+				664FBCFE18AB8CC1005870BC /* iOSArtSizer-Prefix.pch */,
 				664FBCFF18AB8CC1005870BC /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			path = "iOS Artwork";
 			sourceTree = "<group>";
 		};
 		664FBD1418AB8CC1005870BC /* iOS ArtworkTests */ = {
@@ -148,7 +170,7 @@
 		664FBD1518AB8CC1005870BC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				664FBD1618AB8CC1005870BC /* iOS ArtworkTests-Info.plist */,
+				664FBD1618AB8CC1005870BC /* iOSArtSizerTests-Info.plist */,
 				664FBD1718AB8CC1005870BC /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -157,9 +179,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		664FBCEC18AB8CC0005870BC /* iOS Artwork */ = {
+		664FBCEC18AB8CC0005870BC /* iOSArtSizer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 664FBD1E18AB8CC1005870BC /* Build configuration list for PBXNativeTarget "iOS Artwork" */;
+			buildConfigurationList = 664FBD1E18AB8CC1005870BC /* Build configuration list for PBXNativeTarget "iOSArtSizer" */;
 			buildPhases = (
 				664FBCE918AB8CC0005870BC /* Sources */,
 				664FBCEA18AB8CC0005870BC /* Frameworks */,
@@ -169,14 +191,14 @@
 			);
 			dependencies = (
 			);
-			name = "iOS Artwork";
+			name = iOSArtSizer;
 			productName = "iOS Artwork";
-			productReference = 664FBCED18AB8CC1005870BC /* iOS Artwork.app */;
+			productReference = 664FBCED18AB8CC1005870BC /* iOSArtSizer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		664FBD0D18AB8CC1005870BC /* iOS ArtworkTests */ = {
+		664FBD0D18AB8CC1005870BC /* iOSArtSizerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 664FBD2118AB8CC1005870BC /* Build configuration list for PBXNativeTarget "iOS ArtworkTests" */;
+			buildConfigurationList = 664FBD2118AB8CC1005870BC /* Build configuration list for PBXNativeTarget "iOSArtSizerTests" */;
 			buildPhases = (
 				664FBD0A18AB8CC1005870BC /* Sources */,
 				664FBD0B18AB8CC1005870BC /* Frameworks */,
@@ -187,9 +209,9 @@
 			dependencies = (
 				664FBD1318AB8CC1005870BC /* PBXTargetDependency */,
 			);
-			name = "iOS ArtworkTests";
+			name = iOSArtSizerTests;
 			productName = "iOS ArtworkTests";
-			productReference = 664FBD0E18AB8CC1005870BC /* iOS ArtworkTests.xctest */;
+			productReference = 664FBD0E18AB8CC1005870BC /* iOSArtSizerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +228,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 664FBCE818AB8CC0005870BC /* Build configuration list for PBXProject "iOS Artwork" */;
+			buildConfigurationList = 664FBCE818AB8CC0005870BC /* Build configuration list for PBXProject "iOSArtSizer" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -219,8 +241,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				664FBCEC18AB8CC0005870BC /* iOS Artwork */,
-				664FBD0D18AB8CC1005870BC /* iOS ArtworkTests */,
+				664FBCEC18AB8CC0005870BC /* iOSArtSizer */,
+				664FBD0D18AB8CC1005870BC /* iOSArtSizerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -234,6 +256,8 @@
 				664FBD0918AB8CC1005870BC /* Images.xcassets in Resources */,
 				664FBD0118AB8CC1005870BC /* Credits.rtf in Resources */,
 				664FBD0718AB8CC1005870BC /* MainMenu.xib in Resources */,
+				664FBD2D18AB9044005870BC /* controllerRetina.xib in Resources */,
+				664FBD2818AB8F73005870BC /* controllerIcons.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,7 +276,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				664FBD2C18AB9044005870BC /* controllerRetina.m in Sources */,
+				664FBD3018ABA14F005870BC /* imageDrop.m in Sources */,
 				664FBD0418AB8CC1005870BC /* AppDelegate.m in Sources */,
+				664FBD2718AB8F73005870BC /* controllerIcons.m in Sources */,
 				664FBCFD18AB8CC1005870BC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,7 +297,7 @@
 /* Begin PBXTargetDependency section */
 		664FBD1318AB8CC1005870BC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 664FBCEC18AB8CC0005870BC /* iOS Artwork */;
+			target = 664FBCEC18AB8CC0005870BC /* iOSArtSizer */;
 			targetProxy = 664FBD1218AB8CC1005870BC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -385,9 +412,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "iOS Artwork/iOS Artwork-Prefix.pch";
-				INFOPLIST_FILE = "iOS Artwork/iOS Artwork-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "iOS Artwork/iOSArtSizer-Prefix.pch";
+				INFOPLIST_FILE = "iOS Artwork/iOSArtSizer-Info.plist";
+				PRODUCT_NAME = iOSArtSizer;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -398,9 +425,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "iOS Artwork/iOS Artwork-Prefix.pch";
-				INFOPLIST_FILE = "iOS Artwork/iOS Artwork-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "iOS Artwork/iOSArtSizer-Prefix.pch";
+				INFOPLIST_FILE = "iOS Artwork/iOSArtSizer-Info.plist";
+				PRODUCT_NAME = iOSArtSizer;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -420,8 +447,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "iOS ArtworkTests/iOS ArtworkTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "iOS ArtworkTests/iOSArtSizerTests-Info.plist";
+				PRODUCT_NAME = iOSArtSizerTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -438,8 +465,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOS Artwork/iOS Artwork-Prefix.pch";
-				INFOPLIST_FILE = "iOS ArtworkTests/iOS ArtworkTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "iOS ArtworkTests/iOSArtSizerTests-Info.plist";
+				PRODUCT_NAME = iOSArtSizerTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -448,7 +475,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		664FBCE818AB8CC0005870BC /* Build configuration list for PBXProject "iOS Artwork" */ = {
+		664FBCE818AB8CC0005870BC /* Build configuration list for PBXProject "iOSArtSizer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				664FBD1C18AB8CC1005870BC /* Debug */,
@@ -457,7 +484,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		664FBD1E18AB8CC1005870BC /* Build configuration list for PBXNativeTarget "iOS Artwork" */ = {
+		664FBD1E18AB8CC1005870BC /* Build configuration list for PBXNativeTarget "iOSArtSizer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				664FBD1F18AB8CC1005870BC /* Debug */,
@@ -465,7 +492,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		664FBD2118AB8CC1005870BC /* Build configuration list for PBXNativeTarget "iOS ArtworkTests" */ = {
+		664FBD2118AB8CC1005870BC /* Build configuration list for PBXNativeTarget "iOSArtSizerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				664FBD2218AB8CC1005870BC /* Debug */,
