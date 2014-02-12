@@ -1,6 +1,8 @@
 iOSArtSizer
 ===========
 
+![ScreenShot](http://i.imgur.com/qwZkHuY.png)
+
 A simple Mac app to help you create your iOS artwork
 
 There are 2 sections in this app:
